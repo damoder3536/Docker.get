@@ -1,2 +1,2 @@
 FROM httpd:2.4
-RUN  echo "hello Techwave! Apache server" > /usr/local/apache2/htdocs/index.html
+RUN  echo "<h1>hello Dev-Ops Team! My Apache server<h1>" > /usr/local/apache2/htdocs/index.html
